@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Some</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="search">
+			<h2>Search your favourite movies</h2>
+			<label for="search"></label>
+			<div class="bar">
+				<input type="text" id="search" placeholder="Search Here">
+				<button onclick="doSearch()">Search</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="theme-picker">
+		<label for="white"></label><input class="radio-button" type="radio" name="theme" id="white">
+		<label for="pink"></label><input class="radio-button" type="radio" name="theme" id="pink">
+		<label for="blue"></label><input class="radio-button" type="radio" name="theme" id="blue">
+		<label for="gray"></label><input class="radio-button" type="radio" name="theme" id="gray">
+		<label for="black"></label><input class="radio-button" type="radio" name="theme" id="black">
+	</div>
+
+	<div class="result-container" id="resultdiv">
+		<div class="result">
+			<!--Space for images-->
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
